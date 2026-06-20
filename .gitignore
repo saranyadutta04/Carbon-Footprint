@@ -1,0 +1,16 @@
+# Ignore sensitive credentials
+.env
+*.env
+
+# Ignore Python virtual environments and cache
+backend/venv/
+venv/
+__pycache__/
+*.pyc
+
+# Ignore frontend dependencies and build outputs
+node_modules/
+.next/
+dist/
+build/
+.env.local
